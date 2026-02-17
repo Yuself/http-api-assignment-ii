@@ -22,8 +22,6 @@ const parseBody = (request, callback) => {
       }
       return;
     }
-
-    // default: x-www-form-urlencoded
     const params = new URLSearchParams(raw);
     callback(Object.fromEntries(params.entries()));
   });
