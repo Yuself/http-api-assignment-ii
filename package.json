@@ -1,0 +1,21 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "node --test && eslint .",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuself/http-api-assignment-ii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuself/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/Yuself/http-api-assignment-ii#readme",
+  "description": ""
+}
